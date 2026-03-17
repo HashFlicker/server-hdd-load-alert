@@ -37,3 +37,4 @@ def log_setup(name, log_file, level=logging.INFO):
     logger.propagate = False
     return logger
 
+event_log = log_setup("event", "log/event/event.log")
