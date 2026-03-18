@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 load_dotenv()
 PROMETHEUS_API = os.getenv("PROMETHEUS_API")
 
-
 def prometheus_query(query:str):
     url = f"{PROMETHEUS_API}/api/v1/query"
     event_log.info(f"Fetching Prometheus API data")
