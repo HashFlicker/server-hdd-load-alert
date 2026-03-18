@@ -1,0 +1,4 @@
+pytz
+requests
+dotenv
+python-telegram-bot

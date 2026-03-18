@@ -1,0 +1,7 @@
+env/
+.env
+test/
+log/
+logic.txt
+hosts.ini
+*/__pycache__/
